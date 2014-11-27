@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title> - jsFiddle demo</title>
+  
+  <script type='text/javascript' src='http://code.jquery.com/jquery-1.9.1.js'></script>
+  
+  
+  
+    
+    
+      <script type='text/javascript' src="jquery.magnific-popup.js"></script>
+    
+  
+    
+      <link rel="stylesheet" type="text/css" href="magnific-popup.css">
+    
+  
+  <style type='text/css'>
+    
+  </style>
+  
+
+
+<script type='text/javascript'>
+
+$(document).ready(function(){
+    
+  // Example with multiple objects
+  $('#homegallery1').magnificPopup({
+    items: [
+      {
+        src: 'http://placehold.it/350x250'
+      },
+      {
+        src: 'http://placehold.it/250x350'
+      },
+      {
+        src: 'http://placehold.it/350x350'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is default type
+    });
+});
+ 
+
+</script>
+
+
+</head>
+<body>
+ 
+ <div class="container">
+    <a id="homegallery1" href="http://placehold.it/250x250"><img src="http://placehold.it/150x150" class="magnificpic" />
+    </a>
+</div>
+
+
+ 
+  
+</body>
+
+
+</html>
